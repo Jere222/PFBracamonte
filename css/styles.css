@@ -69,10 +69,12 @@ header {
 
 /*Home y detalles de excursiones*/
 .contenedor {
-  display: flex;
-  flex-direction: column;
   padding: 1.5rem 1.5rem 2rem;
-  row-gap: 1.5rem; }
+  row-gap: 2rem; }
+
+.contenedorHyT {
+  display: grid;
+  grid-template-rows: auto auto auto; }
 
 main .subtitulosMain {
   margin-top: 1.5rem;
